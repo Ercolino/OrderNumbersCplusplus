@@ -61,6 +61,7 @@ void Helper::showVector(std::vector<std::string> vString)
 
 void Helper::showVector(std::vector<int> vInt)
 {
+	std::cout << "Start..." << std::endl;	
 	for(int i = 0;i < vInt.size();i++)
 	{
 		std::cout<<vInt.at(i)<<std::endl;	
