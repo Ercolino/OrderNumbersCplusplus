@@ -54,7 +54,7 @@ void Helper::showVector(std::vector<std::string> vString)
 
 	for(int i = 0;i < vString.size();i++)
 	{
-		std::cout<<vString.at(i)<<std::endl);	
+		std::cout<<vString.at(i)<<std::endl;	
 	}
 
 }
