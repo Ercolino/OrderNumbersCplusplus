@@ -3,8 +3,9 @@ language: cpp
 compiler:
   - g++
 
-sudo: required
-
+install:
+  - wget -qO- https://cmake.org/files/v3.5/cmake-3.5.1-Linux-i386.tar.gz | tar xvz
+       
 before_script:
   - mkdir build
   - cd build
